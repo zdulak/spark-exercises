@@ -3,7 +3,7 @@ object MostImportantRows extends App {
 
   val spark = SparkSession
     .builder()
-    .appName("FlatMapNumbers")
+    .appName("MostImportantRows")
     .master("local[*]")
     .getOrCreate()
 
